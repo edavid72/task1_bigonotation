@@ -1,0 +1,8 @@
+¿Cuales de las siguientes sentencias son equivalentes a O(N)? ¿por qué?
+
+1. O(N + P) donde P < n/2 --> true //O(n)  (porque "P" no es un termino dominante)
+
+2. O(2N) --> true O(n) (Porque se tiene que quitar la constante)
+
+3. O(N + log N) --> true O(n) (log N no es un termino dominante)
+4. O(N + M) --> false
